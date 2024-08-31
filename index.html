@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Wizards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Web Wizards</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><input type="text" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Welcome Section -->
+<section class="welcome-section">
+    <div class="video-container">
+        <!-- Use the <video> tag instead of <iframe> for background video -->
+        <video autoplay muted loop class="background-video">
+            <source src="videos/WhatsApp Video 2024-08-23 at 19.31.41_b9fb51e5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="overlay"></div>
+    <h1>Welcome</h1>
+    <div class="empowering-text">
+        <hr>
+        <p>Empowering Student Success</p>
+        <hr>
+    </div>
+</section>
+
+<!-- Portfolio Access Section -->
+<section class="portfolio-access animate__bounceInUp">
+    <!-- Use the same video background here if needed -->
+    <video autoplay muted loop class="background-video">
+        <source src="./videos/bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video autoplay muted loop class src="./videos/bg.mp4" autoplay></video>
+    <div class="overlay"></div>
+    <h2>Access Your Portfolio</h2>
+    <form>
+        <label for="regNumber">Registration Number</label>
+        <input type="text" id="regNumber" name="regNumber" placeholder="Enter your registration number">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Latest Articles Section -->
+<section class="latest-articles animate__bounceInUp">
+    <h2>EMPOWER YOUR PORTFOLIO</h2>
+    <hr>
+    <div class="articles-container">
+        <div class="article">
+            <img src="https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg" alt="Empower Your Career with">
+            <h3>Empower Your Career with</h3>
+            <p class="summary">A vibrant and dynamic classroom, students celebrate success with their teacher, embodying the spirit of collaboration and achievement. This moment captures the essence of educational empowerment, where guidance and teamwork propel students towards a bright future, unlocking their full potential and paving the way for career success.</p>
+            <div class="icons">
+                <span>👁️</span>
+                <span>👍</span>
+                <span>❤️</span>
+            </div>
+        </div>
+        <div class="article">
+            <img src="https://images.pexels.com/photos/1181401/pexels-photo-1181401.jpeg" alt="Stand Out in the Job Market with....">
+            <h3>Stand Out in the Job Market with....</h3>
+            <p class="summary">A focused professional sits confidently at a desk, exemplifying readiness and determination. In today’s competitive job market, it’s essential to showcase your unique skills and dedication. This image captures the essence of personal branding, where preparation and professionalism are key to making a lasting impression and standing out from the crowd.</p>
+            <div class="icons">
+                <span>👁️</span>
+                <span>👍</span>
+                <span>❤️</span>
+            </div>
+        </div>
+        <div class="article">
+            <img src="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg" alt="Enhanced Student Portfolios">
+            <h3>Enhanced Student Portfolios</h3>
+            <p class="summary">A serene image of a white ceramic cup on a brown wooden surface symbolizes the calm and clarity that comes with a well-organized student portfolio. In the fast-paced world of academics and career building, having a polished and comprehensive portfolio can significantly enhance a student’s prospects. This visual metaphor reminds us of the importance of attention to detail and the value of presenting one’s achievements with finesse.</p>
+            <div class="icons">
+                <span>👁️</span>
+                <span>👍</span>
+                <span>❤️</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects-section animate__bounceInUp">
+    <div class="project-left">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project Title 1</h3>
+    </div>
+    <div class="project-right">
+        <h3>Project Title 2</h3>
+        <img src="project2.jpg" alt="Project 2">
+    </div>
+    <div class="project-left">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Project Title 3</h3>
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer
+        class="animate__bounceInUp">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+            <img src="https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg" alt="Social 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9pWHDte60CqFWQ0JmHe1_3Iytn9e-dIPNw&s" alt="Social 2">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/910/715/original/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="Social 3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJjSZcYEnndhn9RvjJusPNh1Ccyusvl77M4A&s" alt="Social 4">
+        </div>
+        <p>Web Wizards | Contact us at: webwizards@example.com | Phone: 91-9875463450</p>
+        <div class="subscribe-section">
+            <input type="email" placeholder="Enter your email for updates">
+            <button>Enter</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
